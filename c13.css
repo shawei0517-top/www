@@ -1,0 +1,33 @@
+.bbla-title a.lefth1cur,
+.bbla-title a:hover,
+#right .bbla-title a,
+#right p, #right p#tab a.thea,
+.inpocdiv h6 span,
+.bbla-title a,
+#music p b,
+#shine dl dt a,
+#local .inlocal .localtitle h2,
+#pocbtn p a:hover,
+#pocbtn p a.curpocbtn,
+#pocbtn .inpocbtn p span,
+.lanbtn ul li a.cur{ color:#368CB1;}
+
+#search #sbmain #sbse,
+#search #sbmclass ul li a.cur,
+#pocbtn .inpocbtn p a.cur,
+#anniu ul li{ background-color:#88C1DA; border:1px solid #3A95BC;}
+#anniu ul li.jia div{ border:1px solid #3A95BC;}
+
+.inpocdiv h6 a.curpocket{ background:#619AA9; box-shadow:0 0 5px #45737E inset; text-shadow:1px 1px 2px #45737E;}
+
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #3A95BC;}
+.oneborder{border:1px solid #88C1DA;}
+.twoborder{border:1px solid #3A95BC;}
+.twoline.tlstyle{ border-color:#3A95BC; background:#88C1DA;}
+body{ background:#fff url(images/c13.jpg) no-repeat center 0;}
+#ly #tab,
+#ly #tab b{ border-color:#3A95BC; background:#88C1DA;}
+#ly #tab b a{ color:#000000;}
+.bbla-banner{ border-bottom:1px solid #3A95BC;}
+#pocbtn p a:hover, #pocbtn p a.curpocbtn{ background:#88C1DA; border-color:#3A95BC;}

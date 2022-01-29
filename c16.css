@@ -1,0 +1,34 @@
+.bbla-title a.lefth1cur,
+.bbla-title a:hover,
+#right .bbla-title a,
+#right p, #right p#tab a.thea,
+.inpocdiv h6 span,
+.bbla-title a,
+#music p b,
+#shine dl dt a,
+#local .inlocal .localtitle h2,
+#pocbtn p a:hover,
+#pocbtn p a.curpocbtn,
+#pocbtn .inpocbtn p span,
+.lanbtn ul li a.cur{ color:#17ABD0;}
+
+#search #sbmain #sbse,
+#search #sbmclass ul li a.cur,
+#pocbtn .inpocbtn p a.cur,
+#anniu ul li{ background-color:#77D8F0; border:1px solid #16A7CB;}
+#anniu ul li.jia div{ border:1px solid #16A7CB;}
+
+.inpocdiv h6 a.curpocket{ background:#64B7D7; box-shadow:0 0 5px #207DA6 inset; text-shadow:1px 1px 2px #207DA6;}
+
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #16A7CB;}
+.oneborder{ border:1px solid #77D8F0;}
+.twoborder{ border:1px solid #16A7CB;}
+.twoline.tlstyle{ border-color:#16A7CB; background:#77D8F0;}
+body{ background:url(images/summer.jpg) no-repeat center -6px;}
+#ly #tab,
+#ly #tab b{ border-color:#16A7CB; background:#77D8F0;}
+#ly #tab b a{ color:#134157;}
+.bbla-banner{ border-bottom:1px solid #5EC5F7;}
+.bbla-banner-shadow{ background:none;}
+#pocbtn p a:hover, #pocbtn p a.curpocbtn{ background:#77D8F0; border-color:#16A7CB;}

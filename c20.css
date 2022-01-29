@@ -1,0 +1,67 @@
+.bbla-title a.lefth1cur,
+.bbla-title a:hover,
+#right .bbla-title a,
+#right p, #right p#tab a.thea,
+.inpocdiv h6 span,
+.bbla-title a,
+#music p b,
+.inpocdiv h6 a.curpocket,
+#shine dl dt a,
+#local .inlocal .localtitle h2,
+#pocbtn p a:hover,
+#pocbtn p a.curpocbtn,
+.lanbtn ul li a.cur{ color:#52869E;}
+.bbla-title a{ text-shadow:1px 1px 0 #fff;}
+
+#ly .bbla-title a{ text-shadow:1px 1px 0 #E9F0F3;}
+
+#search #sbmain #sbse,
+#search #sbmclass ul li a.cur,
+#pocbtn .inpocbtn p a.cur,
+#anniu ul li a{ background-color:#5483A3; border:1px solid #2F495B;}
+
+
+.inpocdiv h6 a.curpocket{ border-bottom:1px solid #63AD58;}
+.inpocdiv h6 em{ background-color:#63AD58;}
+
+#search #sbmclass ul li a.cur{ border-bottom:none; text-shadow:1px 1px 0 #2F495B; font-weight:bold; color:#fff;}
+#search .sbsetext{ border:1px solid #2F495B;}
+
+#ly #tab,
+#ly #tab b{ border-color:#2F495B; background:#5483A3; box-shadow:1px 1px 3px #7AA0BA;}
+#ly #tab b a{ color:#2F495B;}
+#ly #tab b a:hover{ color:#def; text-shadow:1px 1px 0 #2f495b;}
+
+#shine ul li a:hover{ color:#fff;}
+
+.oneborder{border:1px solid #5483A3;}
+.twoborder{border:1px solid #2F495B;}
+
+.twoline{ visibility:hidden;}
+
+body{background:#fff url(images/c20.jpg) no-repeat center 0 fixed;}
+.bbla-banner{ border-bottom:1px solid #2F495B;}
+#pocbtn p a:hover, #pocbtn p a.curpocbtn{ background:#5483A3; border-color:#2F495B;}
+#pocbtn p a{ box-shadow:0 0 0 #000;}
+
+#left,#right{ box-shadow:1px 3px 6px #333;}
+#banner,#left,#right{ opacity:0.9;}
+#flink, #bottom{ background:none;}
+.apps ul li a{ opacity:0.9;}
+
+#temp ul li a,
+#local .inlocal .province ul li a,
+#flink .inflink span a,
+#bottom p a,
+#flink .bbla-title a,
+.inpocdiv h6 a.curpocket,
+.inpocdiv ul li a{ color:#fff; text-shadow:1px 1px 0 #000;}
+.province ul li a span{ text-shadow:none; box-shadow:0 0 0 #000;}
+
+#flink span a:hover,
+#adver p a:hover,
+#temp ul li a:hover,
+.inpocdiv ul li a:hover,
+#bottom p a:hover{text-decoration:underline;color:#fff}
+
+

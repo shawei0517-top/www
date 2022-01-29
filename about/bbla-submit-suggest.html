@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="about.css"  />
+<title>意见建议 - 517网址导航 | 笔记本网址导航</title>
+</head>
+<body>
+<script language="javascript" src="js/set.js"  type="text/javascript"></script>
+<script src="../../tjs.sjs.sinajs.cn/open/api/js/wb.js"  type="text/javascript" charset="utf-8"></script>
+<script language="javascript" type="text/javascript">
+function postChk(theForm){
+  var con=theForm.content.value.replace(/^\s+|\s+$/g,'');
+  if(con==''){
+    alert('留言内容不能为空白！');
+	theForm.content.focus();
+    return false;
+  }
+  if(finderr=con.match(/<a[^>]+href[^>]+>.*<\/a>/)){
+    alert('留言本不支持此代码'+finderr+'！提交无用');
+	theForm.content.focus();
+    return false;
+  }
+  if(con.length > 400){
+    alert('请缩短你的留言内容至400字符以下。现在为'+con.length+'字符，大约得减'+(con.length-400)+'字符');
+	theForm.content.focus();
+    return false;
+  }
+  return true;
+}
+</script>
+
+
+
+<div class="abtop">
+<div class="inabtop">
+<p>517网址导航 &nbsp;<b>·</b>&nbsp; 更好用的上网主页</p>
+</div><!--intop-->
+</div><!--top-->
+
+<div class="ablayout">
+<div class="ableft">
+<p><a href="../index.html"  class="home">首页</a>
+</p>
+<ul>
+<li><a href="bbla-index.html" >关于本站</a></li>
+<li><a href="bbla-repair.html" >主页修复</a></li>
+<li><a href="bbla-submit-suggest.html"  class="curr">意见建议</a></li>
+<li><a href="bbla-submit-goodsite.html" >好站推荐</a></li>
+<li><a href="bbla-submit-apply.html" >申请收录</a></li>
+<li><a href="bbla-submit-error.html" >挑错本站</a></li>
+<li><a href="bbla-contact.html" >联系我们</a></li>
+</ul>
+</div><!--left-->
+
+<div class="abright">
+<div class="righttop"></div><!--rt-->
+<div class="rightmid">
+<h1>意见建议</h1>
+<p></p>
+
+
+&nbsp;<form id="postform" name="postform" method="post" action="http://www.shawei0517.topabout/dosubmit.php?act=write" onsubmit="return postChk(this)" target="lastFrame">
+
+
+<i class="sp10"></i>
+<p>感谢您的支持！欢迎您在这里留下反馈意见！希望您留下微博QQ等联系方式，以便于我们与您进一步沟通。</p>
+<i class="sp10"></i>
+<p><wb:follow-button uid="2010185427" type="red_2" width="136" height="24" ></wb:follow-button></p>
+<i class="sp10"></i>
+<i class="sp10"></i>
+<p><input type="hidden" name="posttype" value="1" /></p>
+&nbsp;<i class="sp10"></i>
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"wzzs"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+</form>
+
+
+<i class="sp10"></i>
+<i class="sp10"></i>
+<i class="sp10"></i>
+<i class="sp10"></i>
+<i class="sp10"></i>
+<i class="sp10"></i>
+
+</div><!--rm-->
+<div class="rightbtm"></div><!--rb-->
+</div><!--right-->
+<i class="kill"></i>
+</div><!--layout-->
+
+<div class="abbottom">
+<p>
+<a href="../index.html" >shawei0517.top 更好用的上网主页</a>&nbsp;&nbsp;&nbsp;
+
+</p>
+</div><!--bottom-->
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.bbla-title a.lefth1cur,
+.bbla-title a:hover,
+#right .bbla-title a,
+#right p, #right p#tab a.thea,
+.inpocdiv h6 span,
+.bbla-title a,
+#music p b,
+#shine dl dt a,
+#local .inlocal .localtitle h2,
+#pocbtn p a:hover,
+#pocbtn p a.curpocbtn,
+#pocbtn .inpocbtn p span,
+.lanbtn ul li a.cur{ color:#E4507C;}
+
+#search #sbmain #sbse,
+#search #sbmclass ul li a.cur,
+#pocbtn .inpocbtn p a.cur,
+#anniu ul li{ background-color:#FAB1E6; border:1px solid #EC68C5;}
+#anniu ul li.jia div{ border:1px solid #EC68C5;}
+	
+.inpocdiv h6 a.curpocket{ background:#EC68C5; box-shadow:0 0 5px #D61B9D inset; text-shadow:1px 1px 2px #D61B9D;}
+
+#search #sbmclass ul li a.cur{ border-bottom:none;}
+#search .sbsetext{ border:1px solid #EC68C5;}
+.oneborder{border:1px solid #FAB1E6;}
+.twoborder{border:1px solid #EC68C5;}
+.twoline.tlstyle{ border-color:#EC68C5; background:#FAB1E6;}
+body{ background:#fff;}
+#ly #tab,
+#ly #tab b{ border-color:#EC68C5; background:#FAB1E6;}
+#ly #tab b a{ color:#865D66;}
+.bbla-banner{ border-bottom:1px solid #E2A3D5;}
+#pocbtn p a:hover, #pocbtn p a.curpocbtn{ background:#FAB1E6; border-color:#EC68C5;}

@@ -1,0 +1,50 @@
+.bbla-title a.lefth1cur, .bbla-title a:hover, #right .bbla-title a, #right p, #right p#tab a.thea, .inpocdiv h6 span, .bbla-title a, #music p b, #shine dl dt a, #local .inlocal .localtitle h2{ color:#41764A;}
+.bbla-title a{ text-shadow:1px 1px 0 #fff;}
+#ly .bbla-title a{ text-shadow:1px 1px 0 #E9F3EB;}
+
+#search #sbmain #sbse,
+#search #sbmclass ul li a.cur,
+#anniu ul li a{ background-color:#366794; border:1px solid #131F51;}
+
+#search #sbmclass ul li a.cur{ border-bottom:none; text-shadow:1px 1px 0 #131F51; font-weight:bold; color:#fff;}
+#search .sbsetext{ border:1px solid #131F51;}
+
+#ly #tab,
+#ly #tab b{ border-color:#131F51; background:#366794; box-shadow:1px 1px 3px #295887;}
+#ly #tab b a{ color:#131F51;}
+#ly #tab b a:hover{ color:#fff; text-shadow:1px 1px 0 #265266;}
+
+#pocbtn p a{ box-shadow:0 0 0 #000;}
+
+.oneborder{border:1px solid #395F9B;}
+.twoborder{border:1px solid #2B4675;}
+.aoyun1.oneborder{border:1px solid #207445;}
+.aoyun2.twoborder{border:1px solid #144821;}
+
+.twoline{ visibility:hidden;}
+
+body{background:#fff url(images/c26.jpg) no-repeat center -20px fixed;}
+.bbla-banner{ border-bottom:1px solid #131F51;}
+#pocbtn p a:hover, #pocbtn p a.curpocbtn{ background:#366794; border-color:#131F51;}
+#left,#right{ box-shadow:1px 3px 6px #355E51;}
+#banner,#left,#right{ opacity:0.91;}
+#flink, #bottom{ background:none;}
+
+.apps ul li a{ opacity:0.9;}
+
+#temp ul li a,
+#local .inlocal .province ul li a,
+#flink .inflink span a,
+#bottom p a,
+#flink .bbla-title a,
+.inpocdiv h6 a.curpocket,
+.inpocdiv ul li a{ color:#fff; text-shadow:1px 1px 0 #000;}
+.province ul li a span{ text-shadow:none; box-shadow:0 0 0 #000; border-color:#424C4D;}
+
+#flink span a:hover,
+#adver p a:hover,
+#temp ul li a:hover,
+.inpocdiv ul li a:hover,
+#bottom p a:hover{text-decoration:underline;color:#fff}
+
+
