@@ -41,12 +41,8 @@ p a:hover,span a:hover{color:#F00}
 .bbla-banner{ font-size:12px;zoom: 1; background:url(images/bannerbg2.png) repeat-x left top;}
 .bbla-banner div{ width:1000px; margin:0 auto;height:36px; line-height:34px; position:relative; padding:1px 0 0 0;}
 .bbla-banner-shadow{ height:11px; width:100%; background:url(images/bannershadow.png) no-repeat center -5px;}
-.banleft#package{ float:left; width:560px; overflow:hidden; height:33px; padding:2px 0 0 24px; position:relative;}
+.banleft#package{ float:left; width:560px; overflow:hidden; height:33px; padding:8px 0 0 24px; position:relative;}
 .banleft#package span{ display:block; height:28px; font:normal 12px/30px "宋体"; text-align:left;}
-.banleft#package span#nongli{ height:28px; line-height:28px; padding:1px 0 0 0;}
-.banleft#package span#nongli b{ font-weight:normal;}
-.banleft#package span#nongli b b{ font-weight:bold;}
-.banleft#package span#nongli a{ color:#454545;}
 .banleft#package a:hover{ text-decoration:none;}
 .banleft#package span b{ cursor:pointer; color:#454545;}
 .banleft#package a#togicon{ display:block; height:16px; width:16px; background:url(images/bblabg.gif) no-repeat -70px -64px; cursor:pointer; left:0; top:10px; position:absolute;}
@@ -343,8 +339,7 @@ var _hmt = _hmt || [];
 <div class="bbla-banner" id="banner">
 <div>
 <p class="banleft" id="package">
-<span id="nongli" style="display:block;"><a href="http://www.baidu.com/s?ie=utf-8&wd=%E5%8C%97%E4%BA%AC%E6%97%B6%E9%97%B4&tn=shawei0517.top"><b><b id="sayhib"></b></b> <b id="clockb"></b></a>&nbsp;&nbsp;<b><a href="javascript:void(0)" onClick="window.open('http://www.xingzuowu.com/')"><b>星座</b></a></b></span>
-<span id="wea" style="display:none;"><iframe allowtransparency="true" scrolling="no" id="weather" frameborder="0"></iframe></span>
+<span id="wea"><iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tx&skin=pitaya" frameborder="0" width="100%" height="30" allowtransparency="true"></iframe></span>
 <a id="togicon" onClick="togglage()"></a></p>
 <p class="banright">
 <a href="about/bbla-repair.html" id="sethome" onClick="setHomepage()" target="_blank">设为主页</a> | <a go="so.html" target="_self" onClick="$j.goso()">搜索版</a> | <a id="cgpifu" style="cursor:pointer;" onClick="$j.showpifu()">换主题</a>
@@ -696,7 +691,6 @@ var zdySite = new Array('<span class="listitle"><a href="bbla/news.html"target="
 $j("div.zdylan").each(function(i){ if(typeof($j.cookie("l"+i))=="undefined" || $j.cookie("l"+i)=="null"){ $j(this).empty().html(zdySite[i])}else{ $j(this).empty().html(zdySite[$j.cookie("l"+i)])}});
 var vgxh=$j.cookie("cgxh");if(vgxh){ $j("#gxhtip").hide()}else{ $j("#gxhtip").show(500)};
 var kk=0;
-$j("#togicon").click(function(){kk==0?($j("#wea").hide(),$j("#nongli").show(),kk=1):kk==1&&($j("#nongli").hide(),$j("#wea").show(),kk=0)});
 $j("#search").mouseleave(function(){ $j("#hotnews").hide()});
 var curbs,bstimer;
 $j("#inright span.bigsite").hover(function(){ curbs=$j(this); bstimer=setInterval($j.showbs,300)},function(){clearInterval(bstimer); $j(this).find("div").hide()});
@@ -742,21 +736,10 @@ hishare:function(){ $j("#bdshare").fadeOut(100)},
 showself:function(){ $j("#yourself").show(); $j("#shareDiv").hide(); $j("#selframe").show().attr("src","zdy.html");$j.cookie("cgxh",1,{ expires:expdate })},
 iclose:function(){ $j("#yourself").hide(); $j("#selframe").removeAttr("src")},
 smarquee:function(){ $j("#inshine").animate({ marginTop:"-25px"},0,function(){$j(this).css({marginTop:"0px"}).find("li:first").appendTo(this)})},
-autoage:function(){ $j("#nongli").fadeOut(); $j("#wea").fadeIn()},
 goso:function(){
 $j("#ly").hide();$j("#pocket").hide();$j("#pocbtn").hide();$j("#local").hide();$j("p.twoline").hide();$j(".mallad").hide();$j("#flink").hide();$j("#bottom").hide();
 $j(".bbla-banner-shadow").animate({"height":"90px"},300,function(){window.location.href="so.html"})
 },
-sayhello:function(){
-var arrHi=new Array("Hi，凌晨好！","Hi，早上好！","Hi，上午好！","Hi，中午好！","Hi，下午好！","Hi，晚上好！");
-var Today = new Date();
-var nowhour = Today.getHours();
-if(nowhour <= 6){ $j("#sayhib").html(arrHi[0])}
-else if (nowhour <= 9){ $j("#sayhib").html(arrHi[1])}
-else if (nowhour <= 11){ $j("#sayhib").html(arrHi[2])}
-else if (nowhour <= 14){ $j("#sayhib").html(arrHi[3])}
-else if (nowhour <= 19){ $j("#sayhib").html(arrHi[4])}
-else{ $j("#sayhib").text(arrHi[5])}},
 adPic:function(){
 var adi=Math.floor(Math.random()*5);
 $j("#adpic a").attr("href",adurl[adi]); $j("#adpic a img").attr("src","images/"+adimg[adi]+".gif");
@@ -810,8 +793,6 @@ ifmore:function(){
 }
 });
 setInterval($j.smarquee,6000);
-setTimeout($j.autoage,4500);
-$j.sayhello();
 $j.loadmallad();
 $j.showkeyword();
 $j.ifsnews();
@@ -831,7 +812,6 @@ $j("#pocbtn p a:first").addClass("curpocbtn");
 $j(".pocketboxes .pocketbox:first").show();
 setTimeout($j.hidetmc,7500);
 </script>
-<script type="text/javascript" src="js/nongli.js"></script>
 <script type="text/javascript">
 
 function setHomepage(){
@@ -920,7 +900,6 @@ if(typeof(i) == "string"){i = $(i);}
 return i.getElementsByTagName(t)};
 var params ={"XOffset":2,"YOffset":-3,"width":430,"fontColor":"#0a0a0a","fontColorHI":"#FFF","fontSize":"14px","fontFamily":"宋体","borderColor":"gray","bgcolorHI":"#1C66C1","sugSubmit":false};BaiduSuggestion.bind("keyword",params);
 //
-$j("#weather").attr("src","weather2.html");
 $j(function($){
 $body=(window.opera)?(document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
 $("#totop").hide();
